@@ -2,7 +2,7 @@ const express = require("express")
 const route = express.Router()
 const bodyParser = require("body-parser")
 const user = require("../controllers/userController")
-const session=require("express-session")
+const session = require("express-session")
 
 route.use(bodyParser.json());
 route.use(bodyParser.urlencoded({ extended: true }))

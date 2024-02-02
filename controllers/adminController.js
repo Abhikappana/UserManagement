@@ -98,11 +98,9 @@ const sercheduser = async (req, res) => {
 
     }
     catch (e) {
-
         console.log("e.message");
         console.log(e.message);
         res.redirect('/error?message= something went wrong! while searching')
-
     }
 }
 
